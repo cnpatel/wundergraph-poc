@@ -1,0 +1,25 @@
+{
+    "name": "books",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+      "dev": "ts-node index.ts",
+      "start": "node dist/index.js",
+      "build": "tsc"
+    },
+    "author": "Chaitanya Patel",
+    "license": "ISC",
+    "dependencies": {
+      "@apollo/server": "^4.10.0",
+      "@apollo/subgraph": "^2.7.1",
+      "graphql": "^16.8.1",
+      "graphql-tag": "^2.12.6"
+    },
+    "devDependencies": {
+      "@types/node": "^20.8.4",
+      "ts-node": "^10.9.1",
+      "typescript": "^5.2.2"
+    }
+  }
+  
